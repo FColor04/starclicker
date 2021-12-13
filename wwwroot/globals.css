@@ -1,0 +1,13 @@
+html {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(61,21,87);
+    background: linear-gradient(26deg, rgba(61,21,87,1) 0%, rgba(9,9,121,1) 51%, rgba(0,159,255,1) 100%);
+    color: white;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}

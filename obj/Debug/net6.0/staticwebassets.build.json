@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "7aREMVOawdTMGc6nqgfZQ71yvU6PcyCXX7XZk+lVqUg=",
+  "Source": "StarClicker",
+  "BasePath": "_content/StarClicker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StarClicker/wwwroot",
+      "Source": "StarClicker",
+      "ContentRoot": "/home/marcinsmola/Web Projects/StarClicker/wwwroot/",
+      "BasePath": "_content/StarClicker",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/bundle/StarClicker.styles.css",
+      "SourceId": "StarClicker",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/bundle/",
+      "BasePath": "_content/StarClicker",
+      "RelativePath": "StarClicker.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/bundle/StarClicker.styles.css"
+    },
+    {
+      "Identity": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/projectbundle/StarClicker.bundle.scp.css",
+      "SourceId": "StarClicker",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "BasePath": "_content/StarClicker",
+      "RelativePath": "StarClicker.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/marcinsmola/Web Projects/StarClicker/obj/Debug/net6.0/scopedcss/projectbundle/StarClicker.bundle.scp.css"
+    },
+    {
+      "Identity": "/home/marcinsmola/Web Projects/StarClicker/wwwroot/globals.css",
+      "SourceId": "StarClicker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/marcinsmola/Web Projects/StarClicker/wwwroot/",
+      "BasePath": "_content/StarClicker",
+      "RelativePath": "globals.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/globals.css"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,QAAE;IACA,KAAK,EAAE,KAAK",
+"sources": ["MainLayout.razor.scss"],
+"names": [],
+"file": "MainLayout.razor.css"
+}
