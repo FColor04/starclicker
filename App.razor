@@ -3,9 +3,10 @@
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />    
     </Found>
     <NotFound>
-        <PageTitle>Not found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+            @using StarClicker.Pages
+            <PageTitle>SC | 404 - Not found</PageTitle>
+            <Page404></Page404>
         </LayoutView>
     </NotFound>
 </Router>

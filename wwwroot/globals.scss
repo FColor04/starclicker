@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,600&display=swap");
+﻿@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -7,10 +8,9 @@ html {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  background: #3d1557;
-  background: linear-gradient(26deg, #28073a 0%, #240841 100%);
+  background: rgb(61,21,87);
+  background: linear-gradient(26deg, rgb(40, 7, 58) 0%, rgb(36, 8, 65) 100%);
 }
-
 body {
   background-image: url("/img/BackgroundPattern.svg");
   background-size: 128px;
@@ -18,13 +18,15 @@ body {
   min-height: 90vh;
   padding: 0;
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
+  a {
+    color: pink;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 3px;
+  }
 }
-body a {
-  color: pink;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 3px;
-}
+
+
 
 a, .btn-link {
   color: #0071c1;
@@ -78,7 +80,5 @@ a, .btn-link {
 }
 
 .blazor-error-boundary::after {
-  content: "An error has occurred.";
+  content: "An error has occurred."
 }
-
-/*# sourceMappingURL=globals.css.map */

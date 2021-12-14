@@ -2,11 +2,35 @@
 
 <PageTitle>StarClicker</PageTitle>
 
-<div class="header">
+@using StarClicker.Data
+@implements IDisposable
+@inject ClickerData _clickerData
+
+@code {
+    protected override void OnInitialized()
+    {
+        _clickerData.Start();
+        _clickerData.OnUpdate += StateHasChanged;
+    }
+
+    public void Dispose()
+    {
+        _clickerData.OnUpdate -= StateHasChanged;
+    }
+}
+
+<div class="container">
     <header>
-        <NavLink href="/">Home</NavLink>
         <h1>Star Clicker</h1>
-        <NavLink href="/">Store</NavLink>
+        <NavLink href="/"><i class="fas fa-home"></i></NavLink>
+        <NavLink href="/Game"><i class="fas fa-gamepad"></i></NavLink>
+        <span id="hydrogenCount">
+            @_clickerData.HydrogenCountText
+            <span id="heliumCount">@_clickerData.HeliumCountText</span>
+        </span>
+        <NavLink href="/Store">
+            <i class="fas fa-shopping-cart"></i>
+        </NavLink>
     </header>
     <main>
         @Body

@@ -1,0 +1,29 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_2)">
+<rect x="111.029" y="99.7157" width="64" height="16" transform="rotate(45 111.029 99.7157)" fill="#430E5C"/>
+<rect x="111.029" y="99.7157" width="64" height="16" transform="rotate(45 111.029 99.7157)" fill="#430E5C"/>
+<rect x="99.7157" y="144.971" width="64" height="16" transform="rotate(-45 99.7157 144.971)" fill="#430E5C"/>
+<rect x="99.7157" y="144.971" width="64" height="16" transform="rotate(-45 99.7157 144.971)" fill="#430E5C"/>
+<rect x="239.314" y="228" width="64" height="16" transform="rotate(45 239.314 228)" fill="#430E5C"/>
+<rect x="239.314" y="228" width="64" height="16" transform="rotate(45 239.314 228)" fill="#430E5C"/>
+<rect x="228" y="273.255" width="64" height="16" transform="rotate(-45 228 273.255)" fill="#430E5C"/>
+<rect x="228" y="273.255" width="64" height="16" transform="rotate(-45 228 273.255)" fill="#430E5C"/>
+<rect x="-16.6863" y="228" width="64" height="16" transform="rotate(45 -16.6863 228)" fill="#430E5C"/>
+<rect x="-16.6863" y="228" width="64" height="16" transform="rotate(45 -16.6863 228)" fill="#430E5C"/>
+<rect x="-28" y="273.255" width="64" height="16" transform="rotate(-45 -28 273.255)" fill="#430E5C"/>
+<rect x="-28" y="273.255" width="64" height="16" transform="rotate(-45 -28 273.255)" fill="#430E5C"/>
+<rect x="-16.6863" y="-28" width="64" height="16" transform="rotate(45 -16.6863 -28)" fill="#430E5C"/>
+<rect x="-16.6863" y="-28" width="64" height="16" transform="rotate(45 -16.6863 -28)" fill="#430E5C"/>
+<rect x="-28" y="17.2548" width="64" height="16" transform="rotate(-45 -28 17.2548)" fill="#430E5C"/>
+<rect x="-28" y="17.2548" width="64" height="16" transform="rotate(-45 -28 17.2548)" fill="#430E5C"/>
+<rect x="239.314" y="-28" width="64" height="16" transform="rotate(45 239.314 -28)" fill="#430E5C"/>
+<rect x="239.314" y="-28" width="64" height="16" transform="rotate(45 239.314 -28)" fill="#430E5C"/>
+<rect x="228" y="17.2548" width="64" height="16" transform="rotate(-45 228 17.2548)" fill="#430E5C"/>
+<rect x="228" y="17.2548" width="64" height="16" transform="rotate(-45 228 17.2548)" fill="#430E5C"/>
+</g>
+<defs>
+<clipPath id="clip0_2_2">
+<rect width="256" height="256" fill="white"/>
+</clipPath>
+</defs>
+</svg>
