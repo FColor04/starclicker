@@ -1,0 +1,63 @@
+﻿.container ::deep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  h3 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  > button {
+    //Free H button
+    width: 40ch;
+    height: 2rem;
+    border-radius: 20px;
+  }
+  .store {
+    display: grid;
+    width: 100%;
+    padding: 0 20ch;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 12rem;
+      aspect-ratio: 4/5;
+      border: 1px solid pink;
+      border-radius: 4rem;
+      padding: 2rem;
+      .name {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .count {
+        font-size: 1.5rem;
+      }
+      img {
+        width: 50%;
+        aspect-ratio: 1/1;
+        margin-bottom: auto;
+      }
+      .producerButton {
+        width: 100%;
+        background-color: #bb7884;
+        box-shadow: none;
+        border: none;
+        color: white;
+        text-shadow: 2px 2px black;
+        margin: 0 4rem;
+        margin-top: auto;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        &:disabled {
+          opacity: 0.3;
+        }
+      }
+    }
+  }
+}
