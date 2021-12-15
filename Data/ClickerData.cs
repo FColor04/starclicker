@@ -8,9 +8,9 @@ public class ClickerData
     private bool _didWin = false;
     private bool _doesOverflow = false;
 
-    public Action OnUpdate;
-    public ulong ProductionSpeed = 1;
-    
+    public Action OnUpdate = delegate() {};
+    public List<HydrogenProducer> producers = new List<HydrogenProducer>();
+
     //When this limit is reached, convert all the hydrogen into helium
     private readonly ulong syntheticHydrogenLimit = 10000000000000000000;
     private ulong _hydrogenCount = 0;
@@ -25,7 +25,10 @@ public class ClickerData
 
     public void Update()
     {
-        _hydrogenCount += ProductionSpeed;
+        foreach (var hydrogenProducer in producers)
+        {
+            _hydrogenCount += hydrogenProducer.producerCount * hydrogenProducer.productionRate;
+        }
         if (_hydrogenCount >= syntheticHydrogenLimit)
         {
             _hydrogenCount = 0;
@@ -45,14 +48,37 @@ public class ClickerData
                 _doesOverflow = false;
             }
         }
-        OnUpdate.Invoke();
+        if(OnUpdate != null)
+            OnUpdate.Invoke();
     }
 
     public void Start()
     {
         if (_didGameStart) return;
         _didGameStart = true;
-        timer.Start();
+        timer.AutoReset = true;
         timer.Elapsed += (sender, eventArgs) => Update();
+        timer.Enabled = true;
+    }
+
+    public void BuyProducer(HydrogenProducer producer)
+    {
+        if (producer.cost <= _hydrogenCount)
+        {
+            _hydrogenCount -= producer.cost;
+            var producerInList = producers.FirstOrDefault(listProducer => listProducer.name == producer.name);
+            if(producerInList != null)
+            {
+                producerInList.producerCount++;
+            } else {
+                producer.producerCount = 1;
+                producers.Add(producer);
+            }
+        }
+    }
+
+    public void AddOneHydrogen()
+    {
+        _hydrogenCount++;
     }
 }

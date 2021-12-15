@@ -8,41 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StarClicker
 build_property.RootNamespace = StarClicker
-build_property.ProjectDir = B:\Web Projects\starclicker\
+build_property.ProjectDir = /home/marcinsmola/RiderProjects/starclicker/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = B:\Web Projects\starclicker
+build_property.MSBuildProjectDirectory = /home/marcinsmola/RiderProjects/starclicker
 build_property._RazorSourceGeneratorDebug = 
 
-[B:/Web Projects/starclicker/App.razor]
+[/home/marcinsmola/RiderProjects/starclicker/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[B:/Web Projects/starclicker/_Imports.razor]
+[/home/marcinsmola/RiderProjects/starclicker/Pages/Store.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RvcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/marcinsmola/RiderProjects/starclicker/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[B:/Web Projects/starclicker/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-0h73qfh0h2
+[/home/marcinsmola/RiderProjects/starclicker/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-grvxe6j0z7
 
-[B:/Web Projects/starclicker/Pages/Page404.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZTQwNC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-qu7i5k2w1v
+[/home/marcinsmola/RiderProjects/starclicker/Pages/Page404.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFnZTQwNC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-p2axlabijc
 
-[B:/Web Projects/starclicker/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-8q3pfrtn6g
+[/home/marcinsmola/RiderProjects/starclicker/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-nvqiqxa8ce
 
-[B:/Web Projects/starclicker/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/home/marcinsmola/RiderProjects/starclicker/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[B:/Web Projects/starclicker/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/home/marcinsmola/RiderProjects/starclicker/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[B:/Web Projects/starclicker/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+[/home/marcinsmola/RiderProjects/starclicker/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

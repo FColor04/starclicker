@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S5RJChYUnb9rexVX03n0xnLGgCqV3kh8ymK8Lw+jmShBEyxpEllgQV7IXZT8K8jWruW13Xk+X27uY7a0PgmDFQ==",
+  "dgSpecHash": "0f0NPwRlrVaGr4aCV0+Tb1qsLHm8+YmuJ1ccNnUrPi5rgmYAuTXrGruy26k2vc3fccLtPW/v5eALGXG/hrOCPA==",
   "success": true,
-  "projectFilePath": "B:\\Web Projects\\starclicker\\StarClicker.csproj",
+  "projectFilePath": "/home/marcinsmola/RiderProjects/starclicker/StarClicker.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

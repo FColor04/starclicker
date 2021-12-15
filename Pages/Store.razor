@@ -1,0 +1,20 @@
+@using StarClicker.Data
+@inject ClickerData _clickerData
+@code
+{
+    private HydrogenProducer testProducer = new HydrogenProducer( 20, 1, "Test Producer");
+    private HydrogenProducer testProd2 = new HydrogenProducer( 200, 100, "Test Producer 2");
+    private HydrogenProducer testProd3 = new HydrogenProducer( 2000000, 1000000, "Test Producer 3");
+    private HydrogenProducer testProd4 = new HydrogenProducer( 2000000, 100000000000, "Test Producer 4");
+}
+@page "/Store"
+<h3>Store</h3>
+<button @onclick="_clickerData.AddOneHydrogen">Click me for H</button>
+<p>@_clickerData.producers.Find(prod => prod.name == testProducer.name)?.producerCount</p>
+<button @onclick="_ => { _clickerData.BuyProducer(testProducer); }">TestProducer</button>
+<p>@_clickerData.producers.Find(prod => prod.name == testProd2.name)?.producerCount</p>
+<button @onclick="_ => { _clickerData.BuyProducer(testProd2); }">TestProducer2</button>
+<p>@_clickerData.producers.Find(prod => prod.name == testProd3.name)?.producerCount</p>
+<button @onclick="_ => { _clickerData.BuyProducer(testProd3); }">Huge prod 3</button>
+<p>@_clickerData.producers.Find(prod => prod.name == testProd4.name)?.producerCount</p>
+<button @onclick="_ => { _clickerData.BuyProducer(testProd4); }">Huge prod 4</button>

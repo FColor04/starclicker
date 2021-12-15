@@ -7,15 +7,40 @@
 @inject ClickerData _clickerData
 
 @code {
+    private string _hDisplay = "-H";
+    private string _heDisplay = "-He";
+
+    private bool assigned = false;
+    
+    private async void ValueChange()
+    {
+        _hDisplay = _clickerData.HydrogenCountText;
+        _heDisplay = _clickerData.HeliumCountText;
+        await InvokeAsync(StateHasChanged);
+    }
+    
     protected override void OnInitialized()
     {
         _clickerData.Start();
-        _clickerData.OnUpdate += StateHasChanged;
+        async void TryToInit ()
+        {
+            while (!assigned)
+            {
+                if (_clickerData?.OnUpdate != null)
+                {
+                    _clickerData.OnUpdate += ValueChange;
+                    assigned = true;
+                }
+                await Task.Delay(100);
+            }
+        }
+        TryToInit();
     }
 
     public void Dispose()
     {
-        _clickerData.OnUpdate -= StateHasChanged;
+        if(_clickerData?.OnUpdate != null)
+            _clickerData.OnUpdate -= ValueChange;
     }
 }
 
@@ -25,8 +50,8 @@
         <NavLink href="/"><i class="fas fa-home"></i></NavLink>
         <NavLink href="/Game"><i class="fas fa-gamepad"></i></NavLink>
         <span id="hydrogenCount">
-            @_clickerData.HydrogenCountText
-            <span id="heliumCount">@_clickerData.HeliumCountText</span>
+            @_hDisplay
+            <span id="heliumCount">@_heDisplay</span>
         </span>
         <NavLink href="/Store">
             <i class="fas fa-shopping-cart"></i>
