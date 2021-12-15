@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WAUsKL7Aef0E3kmo+DqwEMlrqXhoWIeCYBTm6t9DzMM=",
+  "Hash": "qzbeaE0fZrSNRC4Laz6QZIjBSsjG0Z8DGmDfKAtrZsE=",
   "Source": "StarClicker",
   "BasePath": "_content/StarClicker",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "StarClicker/wwwroot",
+      "Name": "StarClicker\\wwwroot",
       "Source": "StarClicker",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/bundle/StarClicker.styles.css",
+      "Identity": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\bundle\\StarClicker.styles.css",
       "SourceId": "StarClicker",
       "SourceType": "Computed",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "StarClicker.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/bundle/StarClicker.styles.css"
+      "OriginalItemSpec": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\bundle\\StarClicker.styles.css"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/projectbundle/StarClicker.bundle.scp.css",
+      "Identity": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StarClicker.bundle.scp.css",
       "SourceId": "StarClicker",
       "SourceType": "Computed",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "StarClicker.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/home/marcinsmola/RiderProjects/starclicker/obj/Debug/net6.0/scopedcss/projectbundle/StarClicker.bundle.scp.css"
+      "OriginalItemSpec": "B:\\Web Projects\\starclicker\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StarClicker.bundle.scp.css"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/favicon.ico",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\favicon.ico",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/globals.css",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\globals.css",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "globals.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/globals.css"
+      "OriginalItemSpec": "wwwroot\\globals.css"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/globals.css.map",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\globals.css.map",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "globals.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/globals.css.map"
+      "OriginalItemSpec": "wwwroot\\globals.css.map"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/globals.scss",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\globals.scss",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "globals.scss",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/globals.scss"
+      "OriginalItemSpec": "wwwroot\\globals.scss"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/img/BackgroundPattern.svg",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\img\\BackgroundPattern.svg",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "img/BackgroundPattern.svg",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/BackgroundPattern.svg"
+      "OriginalItemSpec": "wwwroot\\img\\BackgroundPattern.svg"
     },
     {
-      "Identity": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/img/QuestionMark.svg",
+      "Identity": "B:\\Web Projects\\starclicker\\wwwroot\\img\\QuestionMark.svg",
       "SourceId": "StarClicker",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/marcinsmola/RiderProjects/starclicker/wwwroot/",
+      "ContentRoot": "B:\\Web Projects\\starclicker\\wwwroot\\",
       "BasePath": "_content/StarClicker",
       "RelativePath": "img/QuestionMark.svg",
       "AssetKind": "All",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/QuestionMark.svg"
+      "OriginalItemSpec": "wwwroot\\img\\QuestionMark.svg"
     }
   ]
 }
