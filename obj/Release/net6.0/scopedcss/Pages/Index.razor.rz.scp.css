@@ -1,0 +1,14 @@
+.articleBox[b-0h73qfh0h2]  {
+  padding: 0 20ch;
+}
+.articleBox[b-0h73qfh0h2]  article {
+  width: 100%;
+  min-height: 10rem;
+  border-radius: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+  padding: 3rem;
+}
+
+/*# sourceMappingURL=Index.razor.css.map */

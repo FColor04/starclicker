@@ -1,0 +1,7 @@
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\StarClicker.exe
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\appsettings.Development.json
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\appsettings.json
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\StarClicker.dll
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\StarClicker.deps.json
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\StarClicker.runtimeconfig.json
+B:\Web Projects\starclicker\bin\Release\net6.0\publish\StarClicker.pdb
